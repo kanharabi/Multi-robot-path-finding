@@ -20,3 +20,19 @@ step, a normal cell can be occupied by at most one robot. Source, destination, t
 age locations can accommodate multiple robots simultaneously. Our target here is develop a
 work schedule that minimizes the time to complete all tasks. You need to develop both optimal
 as well as heuristic algorithms.
+
+## Requirements
+Pandas
+Numpy
+matplotlib
+
+## Creation of input file
+For this create a .yaml file containing the innitial and final destination of robots. If robots
+make stop at n location in their travel, devide it the journey into n+1 journey(eg; journey: 
+start-stop1-stop2-end ->start-stop1, stop1-stop2 and stop2-end). Give the obstacles and transition
+points in the form of python tuples. 
+Also mention the size of the grid map in the input file.
+See input1.yaml for reference.
+
+The output file will be produced in the form of an "output.yaml" file containing the path of 
+travel of each robot and the time taken to reach their destination.
