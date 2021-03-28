@@ -14,3 +14,9 @@ resents a location where no robot can move. Rest of the cells are considered as 
 
 Let there be k number of robots and r number of tasks. The details of robot location and tasks
 are provided as per the following table.
+
+Assume that the a robot can move at most one cell (either vertically or horizontally) at a time
+step, a normal cell can be occupied by at most one robot. Source, destination, temporary stor-
+age locations can accommodate multiple robots simultaneously. Our target here is develop a
+work schedule that minimizes the time to complete all tasks. You need to develop both optimal
+as well as heuristic algorithms.
