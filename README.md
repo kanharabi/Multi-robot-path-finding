@@ -22,8 +22,8 @@ work schedule that minimizes the time to complete all tasks. You need to develop
 as well as heuristic algorithms.
 
 ## Requirements
-Pandas
-Numpy
+Pandas,
+Numpy,
 matplotlib
 
 ## Creation of input file
