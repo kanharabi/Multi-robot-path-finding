@@ -27,7 +27,7 @@ Numpy,
 matplotlib
 
 ## Creation of input file
-For this create a .yaml file containing the innitial and final destination of robots. If robots
+For this create a .yaml file containing the initial and final destination of robots. If robots
 make stop at n location in their travel, devide it the journey into n+1 journey(eg; journey: 
 start-stop1-stop2-end ->start-stop1, stop1-stop2 and stop2-end). Give the obstacles and transition
 points in the form of python tuples. 
